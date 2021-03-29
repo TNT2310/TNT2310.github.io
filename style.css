@@ -1,5 +1,6 @@
 *{
-    width: 860px;
+    width: 90%;
+    height: auto;
     text-align: center;
     margin: 0 auto;
     text-align: center;
@@ -11,7 +12,10 @@
     margin: 0;
     padding: 0;
 }*/
-
+header img{
+    height: 400px;
+    width: 400px;
+}
 html{
     font-size: 16px;
 
@@ -94,7 +98,8 @@ footer{
     text-align: center;
 }
 
-/*#projects{
+
+#projects{
     
     display: grid;
     grid-template-columns: repeat(3, 1fr);
