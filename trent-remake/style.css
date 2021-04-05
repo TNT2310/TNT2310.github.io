@@ -1,6 +1,6 @@
 *{
     width: 860px;
-    text-align: center;
+   
     margin: 0 auto;
     text-align: center;
 }
@@ -19,7 +19,6 @@ html{
     
 }
     header,
-    main,
     footer {
         margin: 0 auto;
         max-width: 800;
@@ -94,15 +93,4 @@ footer{
     text-align: center;
 }
 
-/*#projects{
-    
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: auto;
-}
-#projects article{
-    background: #ccc;
-    padding: 1em;
-    grid-column-gap: 1em;
-    text-align: center;
-}/*
+

@@ -1,17 +1,11 @@
 *{
     width: 90%;
     height: auto;
-    text-align: center;
+    
     margin: 0 auto;
     text-align: center;
 }
-/*{
-    font-family: sans-serif, Arial;
-    line-height: 1.618em;
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}*/
+
 header img{
     height: 400px;
     width: 400px;
@@ -23,7 +17,6 @@ html{
     
 }
     header,
-    main,
     footer {
         margin: 0 auto;
         max-width: 800;
@@ -97,17 +90,8 @@ footer{
     padding: 1em 0;
     text-align: center;
 }
-
-
-#projects{
-    
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: auto;
-}
-#projects article{
-    background: #ccc;
-    padding: 1em;
-    grid-column-gap: 1em;
-    text-align: center;
+main{
+    height:auto;
+    width: 500px;
+    justify-content: center;
 }
